@@ -5,7 +5,7 @@ const person: Person = {
   firstName: "Selene",
   lastName: "Yu",
   name: `Hyeonuk Yu`,
-  role: "IT Engineer",
+  role: "IT Developer",
   avatar: "/images/avatar.jpeg",
   email: "chizman@naver.com",
   location: "Asia/Seoul", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -102,9 +102,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        문제를 코드로 해결하는 즐거움을 아는 개발자 입니다.<br/>
+        사용자 경험을 최우선으로 생각하는 개발자입니다.<br/>
+        클린 코드와 효율적인 아키텍처를 지향합니다.
       </>
     ),
   },
@@ -155,7 +155,7 @@ const about: About = {
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
