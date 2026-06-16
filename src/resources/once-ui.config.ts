@@ -19,7 +19,7 @@ const baseURL: string = "https://demo.magic-portfolio.com";
 const routes: RoutesConfig = {
   "/": true,
   "/about": true,
-  "/work": true,
+  "/work": false,
   // "/blog": true,
   // "/gallery": true,
 };
@@ -186,11 +186,11 @@ const mailchimp: MailchimpConfig = {
 
 // default schema data
 const schema: SchemaConfig = {
-  logo: "",
-  type: "Organization",
-  name: "Once UI",
+  logo: "/images/avatar.jpeg",
+  type: "Person",
+  name: "Hyeonuk Yu",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "chizman@naver.com",
 };
 
 // social links

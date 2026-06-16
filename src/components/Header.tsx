@@ -93,7 +93,7 @@ export const Header = () => {
                   <Row s={{ hide: true }}>
                     <ToggleButton
                       prefixIcon="person"
-                      href="/about"
+                      // href="/about"
                       label={about.label}
                       selected={pathname === "/about"}
                     />

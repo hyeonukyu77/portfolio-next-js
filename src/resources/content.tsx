@@ -25,7 +25,7 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/yeseoyu/magic-portfolio-for-next-js",
+    link: "https://github.com/hyeonukyu77/portfolio-next-js",
     essential: true,
   },
   // {
@@ -99,7 +99,7 @@ const about: About = {
   },
   intro: {
     display: true,
-    title: "Introduction",
+    title: "소개",
     description: (
       <>
         문제를 코드로 해결하는 즐거움을 아는 개발자 입니다.<br/>
@@ -110,48 +110,47 @@ const about: About = {
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "경력",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "프리랜서",
+        timeframe: " - 현재",
+        role: "부장",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            22년 6개월
           </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
+          // <>
+          //   Spearheaded the integration of AI tools into design workflows, enabling designers to
+          //   iterate 50% faster.
+          // </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
+      // {
+      //   company: "Creativ3",
+      //   timeframe: "2018 - 2022",
+      //   role: "Lead Designer",
+      //   achievements: [
+      //     <>
+      //       Developed a design system that unified the brand across multiple platforms, improving
+      //       design consistency by 40%.
+      //     </>,
+      //     <>
+      //       Led a cross-functional team to launch a new product line, contributing to a 15% increase
+      //       in overall company revenue.
+      //     </>,
+      //   ],
+      //   images: [],
+      // },
     ],
   },
   studies: {
@@ -170,62 +169,162 @@ const about: About = {
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "기술 스킬",
     skills: [
+      // {
+      //   title: "Figma",
+      //   description: (
+      //     <>Able to prototype in Figma with Once UI with unnatural speed.</>
+      //   ),
+      //   tags: [
+      //     {
+      //       name: "Figma",
+      //       icon: "figma",
+      //     },
+      //   ],
+      //   // optional: leave the array empty if you don't want to display images
+      //   images: [
+      //     {
+      //       src: "/images/projects/project-01/cover-02.jpg",
+      //       alt: "Project image",
+      //       width: 16,
+      //       height: 9,
+      //     },
+      //     {
+      //       src: "/images/projects/project-01/cover-03.jpg",
+      //       alt: "Project image",
+      //       width: 16,
+      //       height: 9,
+      //     },
+      //   ],
+      // },
       {
-        title: "Figma",
+        title: "",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <></>
         ),
         tags: [
+          // {
+          //   name: "Supabase",
+          //   icon: "supabase",
+          // },
           {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "Java",
+            icon: "java",
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "Spring Boot",
+            icon: "springboot",
           },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
-        tags: [
+          {
+            name: "Vue",
+            icon: "vue",
+          },
+          {
+            name: "React",
+            icon: "react",
+          },
+          {
+            name: "Jira",
+            icon: "Jira",
+          },
+          {
+            name: "Msa",
+            icon: "Msa",
+          },
+          {
+            name: "MySQL",
+            icon: "mysql",
+          },
+          {
+            name: "MSSQL",
+            icon: "mssql",
+          },
+          {
+            name: "Git",
+            icon: "git",
+          },
+          {
+            name: "Python",
+            icon: "python",
+          },
           {
             name: "JavaScript",
-            icon: "javascript",
+            icon: "java script",
           },
           {
             name: "Next.js",
-            icon: "nextjs",
+            icon: "next js",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "Nexacro",
+            icon: "nexacro",
+          },
+          {
+            name: "VS Code",
+            icon: "vscode",
+          },
+          {
+            name: "TypeScript",
+            icon: "typescript",
+          },
+          {
+            name: "Redux",
+            icon: "redux",
+          },
+          {
+            name: "Oracle",
+            icon: "oracle",
+          },
+          {
+            name: "JSON",
+            icon: "json",
+          },
+          {
+            name: "Node.js",
+            icon: "node",
+          },
+          {
+            name: "Swagger",
+            icon: "swagger",
+          },
+          {
+            name: "OpenAPI",
+            icon: "openapi",
+          },
+          {
+            name: "IntelliJ",
+            icon: "intellij",
+          },
+          {
+            name: "Eclipse",
+            icon: "eclipse",
+          },
+          {
+            name: "C#",
+            icon: "csharp",
+          },
+          {
+            name: "eGovFrame",
+            icon: "egov",
+          },
+          {
+            name: "Linux",
+            icon: "linux",
+          },
+          {
+            name: "Jquery",
+            icon: "Jquery",
           },
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
     ],
